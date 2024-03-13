@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+        <style type="text/css">
+            *{
+                text-decoration: none;
+            }
+            .navbar{
+                background: rgb(9, 233, 20); font-family: calibri; padding-right: 15px;padding-left: 15px;
+            }
+            .navdiv{
+                display: flex; align-items: center; justify-content: space-between;
+            }
+            .logo a{
+                font-size: 35px; font-weight: 600; color: white;
+            }
+            li{
+                list-style: none; display: inline-block;
+            }
+            li a{
+                color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+            }
+            .blink {
+                    animation: blinker 1.5s linear infinite;
+                    color: rgb(232, 34, 16);
+                    font-family: Brush Script MT;
+                    
+                }
+    
+                @keyframes blinker {
+                    50% {
+                        opacity: 0;
+                    }
+                }
+                body{
+                  background-image:url("images/wild1.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-size: 100% 100%;
+                  
+                }
+                .contact-container{
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    font-family: 'outfit';
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                .contact-left{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 20px;
+                }
+                .contact-left-title h1{
+                    font-weight: 600;
+                    color: red;
+                    font-size: 40px;
+                    margin-bottom: 5px;
+                }
+                .contact-left-title hr{
+                    border: none;
+                    width: 120px;
+                    height: 5px;
+                    background-color: blueviolet;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                }
+                .contact-inputs{
+                    width: 400px;
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    padding-left: 25px;
+                    font-weight: 500;
+                    color: brown;
+                    border-radius: 50px;
+                }
+                .contact-left textarea{
+                    height: 140px;
+                    padding-top:15px ;
+                    border-radius: 20px;
+                    font-weight: bold;
+                }
+                .contact-inputs:focus{
+                    border: 2px solid red;
+                }
+                .contact-inputs::placeholder{
+                    color: aqua;
+                }
+                .contact-left button{
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    padding: 15px 30px;
+                    font-size: 16px;
+                    color:yellow;
+                    gap:10px;
+                    border: none;
+                    border-radius: 50px;
+                    background: linear-gradient(270deg,hwb(300 0% 95% / 0.926),hsla(300, 100%, 25%, 0.351));
+                    cursor: pointer;
+                }
+                @media(max-width:800px){
+                    .contact-inputs{
+                        width: 80vw;
+                    }
+                    .contact-right{
+                        display: none;
+                    }
+                }
+               
+        </style>
+    
+    <div style="border:10px dashed red; border-radius:20px;">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"; style="font-family:Brush Script MT;"><a href="#">wildlifestyle</a> </div>
+			<ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+    <div class="menu">
+    </div>
+    <div>
+        
+    <h1>
+    <marquee class="blink"  behavior="alternate"> Hello Guys Welcome to my Website.</marquee></h1></div>
+    <section id="home">
+        <div class="hbg">
+        <h1 style="font-family:Algerian;"> Photography </h1>
+           
+        <h3>
+        <p style="color:green;">Fixed Floating Navigation Bar to navigate though sections.</p></h3>
+    </div>
+    </section>
+    
+    <section id="about">
+        <div class="hbg">
+        <h1 style="font-family:Algerian;">About Us</h1>
+        <div>
+        <h3>
+        <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:rgb(10, 137, 20);">Welcome to my photography  session!  I'm experienced photographer who are passionate about capturing the special moments in people's lives. My mission is to create beautiful, timeless images that my clients will cherish for years to come.
+
+            I believe that photography is more than just taking pictures. It's about capturing emotions, telling stories, and creating memories. That's why i work closely with my clients to understand their  unique vision and style, and i strive to make each photoshoot a personalized and unforgettable experience.
+            
+            I'm expertise in a wide range of photography genres, including weddings, portraits, events, commercial, and editorial. I'm always learning and growing, and I stay up-to-date with the latest techniques and trends in the industry.
+            
+            At our studio, i use state-of-the-art equipment and editing software to ensure that each image is of the highest quality. I also offer a variety of prints and products, including albums, canvases, and digital files, to help our clients showcase their images in the best way possible.
+            
+            Thank you for considering me as a member of your photography team. I can't wait to work with you and capture your special moments! </p></h3>
+       
+        </div>
+        
+    </div>
+
+    </section>
+    
+    <section id="portfolio">
+        <div class="hbg">
+            <h1 style="font-family:Algerian;">Recent Photos</h1>
+            <div class="gallery">
+                <div style="background-color: black;">
+                <img src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636__480.jpg" width="700" height="600">
+                <img src="https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519__480.jpg" width="700" height="600">
+                <img src="https://cdn.britannica.com/98/161698-050-D3DAA004/Sumatran-rhinoceros-wildlife-sanctuary-Indonesia-Sumatra.jpg"  width="700" height="600">
+                <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D" width="700" height="600">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies&psig=AOvVaw18pJn-qan2kvRSPG_ZBM0n&ust=1707847511135000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLiw2cixpoQDFQAAAAAdAAAAABAQ" width="700">
+                <img src="https://cdn.pixabay.com/photo/2015/02/13/11/57/wolf-635063__480.jpg" width="700" height="600">
+                <img src="https://cdn.pixabay.com/photo/2017/10/27/15/52/jaguar-2894706__480.jpg" width="700" height="600">
+                <img src="https://cdn.pixabay.com/photo/2017/06/21/13/37/lizard-2427248__480.jpg" width="700" height="600">
+                <img src="https://cdn.pixabay.com/photo/2017/02/05/11/43/iguana-2039719__480.jpg" width="700" height="600">
+            </div>
+       </div>
+    </div>
+    </section>
+
+    <section id="contact">
+    <div class="contact-container">
+       <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+            <h1 style="font-family:Algerian;">Contact Us</h1>
+           <hr>
+           </div>
+           <input type="hidden" name="access_key" value="c624fd73-2f3a-4d00-a3cd-fbf7ddb5551b">
+                  <label for="name" style="font-size: xx-large;">Name</label>
+                  <input type="text" id="name" name="name" class="contact-inputs"  required>
+                  
+                  <label for="email" style="font-size: xx-large;">Email</label>
+                  <input type="email" id="email" name="email" class="contact-inputs" required>
+                  
+                  <label for="message" style="font-size: xx-large;">Message</label>
+                  <textarea id="message" name="message" class="contact-inputs" required></textarea>
+                  
+                  <button type="submit" style="font-size: x-large;">Submit</button>
+                </form>
+              </div>
+       <div class="credit">Made <span style="color:tomato;font-size:20px;"></span>by<a href="https://www.learningrobo.com/">Hemlata</a></div>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+</body>
+</html>
